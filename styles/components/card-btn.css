@@ -1,0 +1,38 @@
+.card-btn::before {
+  content: "Continue Reading";
+}
+
+.card-btn {
+  font-family: latoB, sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--clr6);
+  border-radius: 25px;
+  border: 3px solid var(--clr6);
+  font-size: 1rem;
+  padding: 0.5em 1.25em;
+  background-color: inherit;
+  align-self: flex-start;
+  position: relative;
+  transition: padding 0.4s;
+}
+
+.card-btn:hover {
+  cursor: pointer;
+  padding-right: 2.7em;
+  color: var(--clr4);
+  border: 3px solid var(--clr4);
+  transition: all 0.3s;
+}
+
+.card-btn::after {
+  opacity: 0;
+  transition: opacity 0.3s 0.3s;
+}
+
+.card-btn:hover::after {
+  position: absolute;
+  right: 17px;
+  content: "→";
+  opacity: 1;
+  transition: opacity 0.3s;
+}

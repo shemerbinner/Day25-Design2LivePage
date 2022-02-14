@@ -1,0 +1,30 @@
+.main-paging {
+  height: 49px;
+  margin-bottom: 27px;
+  border-top: 1px solid var(--clr8);
+}
+
+.main-paging > :first-child {
+  padding-left: 30px;
+}
+.main-paging > :last-child {
+  padding-right: 30px;
+}
+
+.paging-btn {
+  padding-top: 26px;
+  border: none;
+  background-color: inherit;
+  font-family: latoB, sans-serif;
+  font-size: 1.125rem;
+  color: var(--clr7);
+}
+
+:hover {
+  transition: all 0.3s;
+}
+
+.paging-btn:hover {
+  cursor: pointer;
+  color: var(--clr10);
+}

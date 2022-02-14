@@ -1,0 +1,56 @@
+.main-footer {
+  height: 315px;
+  border: 1px solid var(--clr8);
+  background-color: var(--clr9);
+}
+
+.footer-container {
+  height: 315px;
+}
+
+.footer-container .footer-logo {
+  margin-block-start: 62px;
+  margin-block-end: 26px;
+  color: var(--clr3);
+}
+
+.footer-container small {
+  font-family: latoR, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--clr10);
+  margin-block-end: 37px;
+}
+
+.footer-container small span {
+  color: var(--clr11);
+}
+
+.footer-links-container {
+  width: 230px;
+  height: 40px;
+  margin-block-end: 80px;
+}
+
+:hover {
+  transition: all 0.2s;
+}
+
+.link-f:hover {
+  cursor: pointer;
+  background-color: #4867aa;
+}
+
+.link-t:hover {
+  cursor: pointer;
+  background-color: #1c9cea;
+}
+
+.link-b:hover {
+  cursor: pointer;
+  background-color: #105bf2;
+}
+
+.link-d:hover {
+  cursor: pointer;
+  background-color: #e04583;
+}

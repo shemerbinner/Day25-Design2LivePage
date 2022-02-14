@@ -1,0 +1,46 @@
+/* felx */
+
+.flex {
+  display: flex;
+}
+
+.flex.space-between {
+  justify-content: space-between;
+}
+
+.flex.align-center {
+  align-items: center;
+}
+
+.flex.justify-center {
+  justify-content: center;
+}
+
+.flex.direction-column {
+  flex-direction: column;
+}
+
+/* list */
+
+.clean-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* border */
+
+.border {
+  border: 1px solid var(--clr8);
+}
+
+/* links logo */
+
+.link-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--clr12);
+}

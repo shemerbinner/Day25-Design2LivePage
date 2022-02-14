@@ -1,0 +1,46 @@
+.main-header {
+  background-color: var(--clr3);
+  border-bottom: 5px solid black;
+}
+
+.header-container {
+  height: 131px;
+  width: 980px;
+}
+
+.logo{
+  margin-bottom: 46px;
+}
+
+.main-header .main-nav > :first-child {
+  border-inline-start: 1px solid black;
+}
+ 
+.main-header .main-nav > * {
+  border-inline-end: 1px solid black;
+}
+
+.main-nav a{
+  width: 25%;
+  text-align: center;
+}
+
+.btn-menu{
+  font-size: 1rem;
+  margin-inline-end: 40px;
+  padding: 10px 15px;
+  border-radius: 7px;
+  border: none;
+  background-color: #adadadbe;
+}
+
+.btn-menu:hover{
+  cursor: pointer;
+  background-color: #adadadbe;
+  border: 1px solid var(--clr4);
+  transition: border .4s;
+}
+
+.btn-menu:active{
+  color: var(--clr4);
+}

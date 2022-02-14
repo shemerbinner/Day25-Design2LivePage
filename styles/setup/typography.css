@@ -1,0 +1,12 @@
+@font-face{
+    font-family: latoR;
+    src: url(/fonts/Lato/Lato-Regular.ttf);
+}
+@font-face{
+    font-family: latoB;
+    src: url(/fonts/Lato/Lato-Bold.ttf);
+}
+@font-face{
+    font-family: eurofurence;
+    src: url(/fonts/Eurofurence/eurof55.ttf);
+}
