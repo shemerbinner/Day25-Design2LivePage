@@ -14,21 +14,21 @@ function onMenuClicked(clickedLink) {
 }
 
 
-function toggleMenu(){
+function toggleMenu() {
     if (isModalOpen) return;
     document.body.classList.toggle('open-menu');
 }
 
 
-function openReadModal(){
+function openReadModal() {
     document.querySelector('.read-modal').classList.add('show-modal')
     document.body.classList.toggle('show-modal');
-    isModalOpen= true;
+    isModalOpen = true;
 }
 
-function closeReadModal(){
+function closeReadModal() {
     document.body.classList.toggle('show-modal');
     document.querySelector('.read-modal').classList.remove('show-modal')
-    isModalOpen= false;
+    isModalOpen = false;
 }
 
